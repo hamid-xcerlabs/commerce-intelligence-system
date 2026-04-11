@@ -3,7 +3,7 @@
 ## Overview
 
 This document outlines how the system processes customer input and converts it into structured decisions.
-
+The system uses controlled AI outputs within a deterministic workflow to ensure reliability and reduce hallucinations.
 ---
 
 ## 1. Intent Classification
