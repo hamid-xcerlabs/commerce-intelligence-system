@@ -2,6 +2,7 @@
 
 ## Context
 
+This use case is based on observed patterns across boutique retail workflows and conversational commerce environments.
 A mid-sized boutique brand operating primarily through Instagram faces high inbound customer engagement but lacks a structured system to convert conversations into sales.
 
 The store receives frequent customer inquiries such as:
