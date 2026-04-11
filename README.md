@@ -204,6 +204,12 @@ It is built with a focus on:
 - AI-assisted decision making
 
 ---
+## Motivation
+
+This system was designed after observing consistent revenue loss patterns in conversational commerce environments, particularly within boutique retail workflows.
+
+The goal was to create a system that does not just respond but understands, decides, and converts.
+---
 
 ## License
 
