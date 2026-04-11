@@ -1,6 +1,6 @@
 # Architecture Reference
 
-This directory contains a simplified structural representation of the Commerce Intelligence System.
+This approach ensures architectural transparency without exposing proprietary system logic.
 
 The purpose is to demonstrate system design and workflow thinking without exposing production-level implementation.
 
