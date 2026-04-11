@@ -1,3 +1,14 @@
+## What Makes This Different
+
+Unlike traditional chatbot or automation setups, this system:
+
+- Uses AI for decision-making, not just replies
+- Connects real-time commerce data with conversations
+- Focuses on conversion outcomes, not just engagement
+- Implements follow-up logic based on purchase behavior
+
+This is not a chatbot it is a commerce intelligence layer.
+
 # Commerce Intelligence System
 
 AI-powered system designed to convert customer conversations into real-time product recommendations and revenue opportunities for modern retail brands.
