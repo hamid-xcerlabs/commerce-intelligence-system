@@ -1,13 +1,17 @@
 # Architecture Reference
 
-This folder contains a structural overview of the Commerce Intelligence System workflow.
+This directory contains a simplified structural representation of the Commerce Intelligence System.
 
-The sample provided is a simplified reference demonstrating the high-level node architecture and data flow.
+The purpose is to demonstrate system design and workflow thinking without exposing production-level implementation.
 
-**Excluded by design:**
-- Prompt engineering layers
-- API configurations
-- Optimization logic
-- Full orchestration flow
+## Included
+- High-level node architecture
+- Conceptual data flow
 
-For system overview, see `/docs/01-system-overview.md`
+## Excluded (intentionally)
+- Prompt engineering logic
+- API credentials and configurations
+- Full workflow orchestration
+- Optimization and scaling layers
+
+For a detailed system overview, refer to `/docs/01-system-overview.md`
