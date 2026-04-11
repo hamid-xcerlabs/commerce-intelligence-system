@@ -10,5 +10,5 @@
     { "name": "Response Generator", "type": "ai-agent", "purpose": "Generates brand-aligned response" },
     { "name": "Follow-up Engine", "type": "logic", "purpose": "Triggers follow-up if no purchase detected" }
   ],
-  "note": "This is a structural reference only. Prompt logic, API configurations, and optimization layers are excluded."
+  "note": "This is a conceptual representation. Production logic, credentials, and optimization layers are intentionally excluded."
 }
