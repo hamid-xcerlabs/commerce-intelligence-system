@@ -1,0 +1,14 @@
+
+
+{
+  "name": "Commerce Intelligence System - Sample Flow",
+  "description": "Simplified architecture reference. Full implementation excluded.",
+  "nodes": [
+    { "name": "Frontend Trigger", "type": "webhook", "purpose": "Receives inbound message payload" },
+    { "name": "Intent Classifier", "type": "ai-agent", "purpose": "Classifies customer intent using LLM" },
+    { "name": "Inventory Manager & Classifier", "type": "ai-agent", "purpose": "Matches intent to live inventory" },
+    { "name": "Response Generator", "type": "ai-agent", "purpose": "Generates brand-aligned response" },
+    { "name": "Follow-up Engine", "type": "logic", "purpose": "Triggers follow-up if no purchase detected" }
+  ],
+  "note": "This is a structural reference only. Prompt logic, API configurations, and optimization layers are excluded."
+}
