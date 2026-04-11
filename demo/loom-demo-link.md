@@ -6,4 +6,4 @@ This demo covers:
 - End-to-end system flow
 - Product query handling
 - AI response generation
-- Follow-up logic
+- Follow-up logic 
