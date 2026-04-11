@@ -20,7 +20,7 @@ This repository showcases a **simplified, production-inspired version** of the s
 
 ## Problem
 
-Modern retail brands — especially boutique and DTC stores — face consistent revenue leakage due to:
+Modern retail brands especially boutique and DTC stores face consistent revenue leakage due to:
 
 - Delayed or missed responses to customer inquiries
 - Lack of personalization in product recommendations
@@ -84,10 +84,10 @@ Detailed breakdown available in `/docs/04-system-flow.md`
 
 The system is built using a modular, event-driven approach:
 
-- AI Layer → intent detection + response generation  
-- Data Layer → product retrieval and formatting  
-- Logic Layer → matching + decision making  
-- Execution Layer → messaging + follow-up actions  
+AI Layer: intent detection + response generation
+Data Layer: product retrieval and formatting
+Logic Layer: matching + decision making
+Execution Layer: messaging + follow-up actions 
 
 See:
 - `/docs/architecture-diagram.png`
