@@ -1,9 +1,12 @@
-Loom Demo Walkthrough:
+## Demo
 
-[link]
+🎥 **Live walkthrough coming soon**
 
-This demo covers:
+Currently in active deployment with a retail client.
+Demo recording will be added upon project completion.
+
+**This demo will cover:**
 - End-to-end system flow
-- Product query handling
+- Real-time product query handling
 - AI response generation
-- Follow-up logic 
+- Automated follow-up logic
