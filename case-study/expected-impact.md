@@ -5,7 +5,7 @@
 The Commerce Intelligence System is designed to improve conversion efficiency and customer experience by structuring and automating key parts of the customer journey.
 
 ---
-
+ 
 ## Key Impact Areas
 
 ### 1. Response Efficiency
