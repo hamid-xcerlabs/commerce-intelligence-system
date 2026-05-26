@@ -4,7 +4,7 @@
 
 This document demonstrates how the Commerce Intelligence System behaves in real-world interaction scenarios.
 
----
+--- 
 
 ## Scenario 1: Product Inquiry with Size
 
