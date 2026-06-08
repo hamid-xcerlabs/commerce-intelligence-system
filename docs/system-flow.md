@@ -1,102 +1,60 @@
 # System Flow
 
-## Overview
+## Step 1: Customer Interaction
 
-This document outlines the step-by-step execution flow of the Commerce Intelligence System.
-
----
-
-## End-to-End Flow
-
-### Step 1: Customer Interaction
-
-- Customer sends a message via a messaging platform (e.g. Instagram DM)
+A customer initiates a conversation through Instagram DM.
 
 ---
 
-### Step 2: Input Processing
+## Step 2: Intent Classification
 
-- Message is received via webhook
-- Data is structured for processing
+The system analyzes the message and identifies:
 
----
-
-### Step 3: Intent Analysis
-
-- AI model classifies the message
-- Extracts:
-  - Intent (product vs general)
-  - Key attributes (e.g. size)
+- Customer intent
+- Relevant context
+- Product attributes
 
 ---
 
-### Step 4: Conditional Routing
+## Step 3: Product Intelligence
 
-- If product-related: proceed to product intelligence
-- If general: generate direct response
+The platform searches the product knowledge base using:
 
----
+- OpenAI embeddings
+- Pinecone vector search
 
-### Step 5: Product Retrieval
-
-- System fetches product data from backend (e.g. Shopify)
-- Includes:
-  - Variants
-  - Inventory status
-  - Metadata
+This allows semantic matching rather than keyword matching.
 
 ---
 
-### Step 6: Product Matching
+## Step 4: Recommendation Logic
 
-- Matching engine identifies best-fit product
-- Filters out:
-  - Irrelevant items
-  - Out-of-stock variants
+Matching products are evaluated against:
 
----
-
-### Step 7: Response Generation
-
-- AI generates a contextual reply
-- Includes:
-  - Product information
-  - Conversational tone
+- Product relevance
+- Inventory availability
+- Business rules
 
 ---
 
-### Step 8: Message Delivery
+## Step 5: Response Generation
 
-- Response is sent back to the customer
-- Product data is embedded where applicable
-
----
-
-### Step 9: Follow-Up Trigger
-
-- System waits for a defined period
-- Checks purchase status
+The system generates a personalized response using retrieved product information.
 
 ---
 
-### Step 10: Conditional Follow-Up
+## Step 6: Escalation Logic
 
-- If no purchase:
-  - Send follow-up message
-- If purchase completed:
-  - No action
+Complex situations are routed to human staff when required.
 
 ---
 
-## Flow Characteristics
+## Step 7: Follow-Up Workflow
 
-- Event-driven
-- Conditional logic-based
-- Context-aware
-- Real-time execution
+Follow-up sequences can be triggered based on customer behavior and conversation outcomes.
 
 ---
 
-## Summary
+## Step 8: Monitoring
 
-The system ensures that every customer interaction is processed, evaluated, and converted into a structured business action.
+Workflow failures are detected and reported through monitoring systems and Slack notifications.
