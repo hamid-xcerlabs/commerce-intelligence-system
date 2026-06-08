@@ -1,74 +1,103 @@
 # Stack Overview
 
-## Overview
-
-The Commerce Intelligence System is built using a modular stack that enables real-time processing, AI-driven decision making, and scalable workflow orchestration.
-
----
-
 ## Core Technologies
 
-### 1. Workflow Orchestration
-
-- **n8n**
-  - Handles event-driven execution
-  - Manages system flow and conditional logic
-  - Connects all system components
-
----
-
-### 2. AI Processing Layer
-
-- **OpenAI (LLM)**
-  - Intent classification
-  - Context extraction
-  - Response generation
+![n8n](https://img.shields.io/badge/n8n-Workflow_Automation-EA4B71?style=for-the-badge&logo=n8n)
+![OpenAI](https://img.shields.io/badge/OpenAI-Reasoning_&_Embeddings-black?style=for-the-badge&logo=openai)
+![Pinecone](https://img.shields.io/badge/Pinecone-Vector_Search-orange?style=for-the-badge)
+![Shopify](https://img.shields.io/badge/Shopify-Commerce_Platform-95BF47?style=for-the-badge&logo=shopify)
+![ManyChat](https://img.shields.io/badge/ManyChat-Conversational_Layer-blue?style=for-the-badge)
+![Slack](https://img.shields.io/badge/Slack-Monitoring_&_Alerts-4A154B?style=for-the-badge&logo=slack)
 
 ---
 
-### 3. Commerce Data Layer
+## Core Platform
 
-- **Shopify API**
-  - Product retrieval
-  - Variant and inventory data
-  - Order status checking
+### n8n
 
----
+Used for:
 
-### 4. Messaging Layer
-
-- **Meta Messaging APIs (via integration layer)**
-  - Customer interaction handling
-  - Message delivery and response management
+- Workflow orchestration
+- System integration
+- Event-driven automation
+- API execution
 
 ---
 
-## System Characteristics
+## AI Layer
 
-- Event-driven architecture
-- API-first design
-- Modular and extensible
-- Real-time data processing
+### OpenAI
 
----
+Used for:
 
-## Design Decisions
-
-- n8n chosen for rapid orchestration and flexibility
-- LLM used for contextual understanding instead of rule-based logic
-- API-based integration ensures scalability across platforms
+- Intent understanding
+- Context extraction
+- Recommendation generation
+- Embedding creation
 
 ---
 
-## Future Stack Extensions
+## Retrieval Layer
 
-- CRM systems (HubSpot, Airtable, Supabase)
-- Multi-channel messaging (WhatsApp, Web)
-- Vector databases for memory and personalization
-- Analytics and tracking layer
+### Pinecone
+
+Used for:
+
+- Semantic search
+- Product retrieval
+- Similarity matching
+- Vector indexing
 
 ---
 
-## Summary
+## Commerce Layer
 
-The stack is designed to balance speed, flexibility, and scalability while enabling intelligent automation across the commerce workflow.
+### Shopify API
+
+Used for:
+
+- Product synchronization
+- Inventory awareness
+- Catalog retrieval
+- Product metadata management
+
+---
+
+## Customer Interaction Layer
+
+### ManyChat
+
+Used for:
+
+- Instagram messaging
+- Customer conversations
+- Workflow triggering
+- Response delivery
+
+---
+
+## Operations Layer
+
+### Slack
+
+Used for:
+
+- Error notifications
+- Workflow monitoring
+- Operational visibility
+- System alerts
+
+---
+
+## Architecture Principles
+
+![Architecture](https://img.shields.io/badge/Architecture-Event_Driven-blue?style=flat-square)
+![Retrieval](https://img.shields.io/badge/Retrieval-Semantic_Search-orange?style=flat-square)
+![Design](https://img.shields.io/badge/Design-Modular-green?style=flat-square)
+![Support](https://img.shields.io/badge/Support-Human_in_the_Loop-purple?style=flat-square)
+
+- Event-driven workflows
+- Modular system design
+- Semantic retrieval architecture
+- Human-in-the-loop support
+- Scalable integration architecture
