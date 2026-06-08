@@ -1,79 +1,60 @@
-# Boutique Use Case
-This use case is based on observed patterns across boutique retail workflows and conversational commerce environments.
+# Boutique Retail Use Case
 
+## Scenario
 
-## Context
+A boutique fashion retailer receives customer inquiries through Instagram DMs every day.
 
-A mid-sized boutique brand operating primarily through Instagram faces high inbound customer engagement but lacks a structured system to convert conversations into sales.
+Customers typically ask:
 
-The store receives frequent customer inquiries such as:
-- Product availability
-- Size confirmation
-- Styling questions
-- Shipping details
+- Do you have this in medium?
+- Can you recommend something similar?
+- What would match this style?
+- Is this product still available?
 
-However, responses are often delayed or inconsistent due to manual handling.
+The business faced several challenges:
 
----
-
-## Identified Challenges
-
-- High volume of inbound DMs with no prioritization
-- Missed or delayed responses during peak hours
-- No personalization in replies
-- Customers drop off after initial inquiry
-- No structured follow-up after product interest
+- Slow response times
+- Manual recommendations
+- Missed sales opportunities
+- Manual product lookup by staff
 
 ---
 
-## Observed Impact
+## Solution
 
-- Lost sales opportunities from warm leads
-- Reduced customer satisfaction
-- Inefficient use of team resources
-- No visibility into customer intent or behavior
+The AI Commerce Intelligence Platform was introduced between customer conversations and store operations.
 
----
+The system:
 
-## System Application
-
-The Commerce Intelligence System is introduced as a conversational and decision-making layer between customer interaction and backend systems.
-
-### Step-by-step application:
-
-1. Customer sends a product-related message via Instagram
-2. AI detects intent and extracts relevant context (e.g. size)
-3. System retrieves real-time product data from the store
-4. Matching engine identifies the most relevant product
-5. Customer receives a personalized, brand-aligned response
-6. If no purchase is detected, follow-up is triggered
+1. Understands customer intent
+2. Retrieves relevant products using semantic search
+3. Checks inventory availability
+4. Generates personalized recommendations
+5. Escalates complex situations to a human team member
 
 ---
 
-## Example Scenario
+## Example Interaction
 
-**Customer Message:**
-"Do you have this dress in medium?"
+Customer:
 
-**System Behavior:**
-- Detects: product_query + size = medium
-- Matches: product with available medium variant
-- Responds: product details + link + friendly message
+"I'm looking for a summer dress for a beach vacation."
+
+System:
+
+- Detects customer intent
+- Searches product catalog using semantic similarity
+- Finds matching products
+- Validates inventory availability
+- Generates recommendation response
 
 ---
 
 ## Outcome
 
-The system enables the boutique to:
-- Respond instantly with relevant information
-- Provide personalized recommendations
-- Maintain consistent communication quality
-- Recover potential lost sales through follow-ups
+The business gains:
 
----
-
-## Key Takeaway
-
-Instead of treating conversations as support queries,  
-the system transforms them into **structured revenue opportunities**.
-
+- Faster response times
+- More relevant product recommendations
+- Consistent customer experience
+- Improved operational efficiency
