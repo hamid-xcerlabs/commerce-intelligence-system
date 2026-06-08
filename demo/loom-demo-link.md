@@ -1,12 +1,13 @@
-## Demo
+# Video Walkthrough
 
-🎥 **Live walkthrough coming soon**
+A full walkthrough of the platform architecture and workflow execution will be added in a future update.
 
-Currently in active deployment with a retail client.
-Demo recording will be added upon project completion.
+The walkthrough will demonstrate:
 
-**This demo will cover:**
-- End-to-end system flow
-- Real-time product query handling
-- AI response generation
-- Automated follow-up logic
+- Customer interaction flow
+- Product retrieval process
+- Semantic search workflow
+- Recommendation generation
+- Monitoring and operations layer
+
+Status: Planned
