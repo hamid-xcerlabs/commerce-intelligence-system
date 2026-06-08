@@ -1,98 +1,73 @@
 # AI Decision Logic
 
-## Overview
+## Objective
 
-This document outlines how the system processes customer input and converts it into structured decisions.
-The system uses controlled AI outputs within a deterministic workflow to ensure reliability and reduce hallucinations.
----
+The goal is not simply to generate responses.
 
-## 1. Intent Classification
-
-The system categorizes incoming messages into:
-
-- **product_query**
-- **general_query**
-
-### Purpose
-
-- Route messages through appropriate logic paths
-- Avoid unnecessary processing
+The goal is to generate relevant recommendations using business context and product intelligence.
 
 ---
 
-## 2. Context Extraction
+## Decision Pipeline
 
-The system extracts relevant attributes such as:
+### 1. Intent Analysis
 
-- Size (e.g. small, medium, large)
-- Style (e.g. )
-- Product-related keywords, Tags
-- Customer intent signals
+Customer messages are analyzed to determine:
 
----
-
-## 3. Conditional Routing
-
-- Product-related queries → product intelligence pipeline
-- General queries → direct response generation
+- Product inquiry
+- Recommendation request
+- Availability question
+- General support request
 
 ---
 
-## 4. Product Matching Logic
+### 2. Context Extraction
 
-The system evaluates:
+Important details are extracted:
 
-- Product title and keywords
-- Tags and categories
-- Variant availability
-- Inventory status
-
-### Matching Strategy
-
-- Prioritize relevance over position
-- Avoid out-of-stock items
-- Consider variant-level availability
+- Product preferences
+- Style requirements
+- Size information
+- Use case
 
 ---
 
-## 5. Response Generation
+### 3. Semantic Retrieval
 
-The AI generates responses based on:
+The system searches product data using vector embeddings.
 
-- Customer query
-- Matched product data
-- Brand tone guidelines
-
-### Constraints
-
-- Concise responses
-- Human-like tone
-- Context-aware messaging
+This allows products to be matched based on meaning rather than exact keywords.
 
 ---
 
-## 6. Follow-Up Decision Logic
+### 4. Candidate Selection
 
-After initial interaction:
+Relevant products are evaluated according to:
 
-- System waits for a defined duration
-- Checks purchase status via backend
-
-### Outcomes
-
-- Purchase detected → no action
-- No purchase → trigger follow-up message
+- Similarity score
+- Inventory availability
+- Product status
 
 ---
 
-## 7. Design Principles
+### 5. Response Generation
 
-- Deterministic flow with AI assistance
-- Controlled output via structured parsing
-- Business outcome-focused decision making
+The final recommendation is generated using:
+
+- Customer context
+- Retrieved products
+- Business constraints
 
 ---
 
-## Summary
+## Human Escalation
 
-The AI layer is not used for random responses, but as a structured decision-making component within a controlled system architecture.
+Certain situations are intentionally routed to human staff.
+
+Examples:
+
+- Ambiguous requests
+- Special customer situations
+- Unsupported queries
+
+This ensures reliability and customer experience quality.
